@@ -1,3 +1,29 @@
 site_name: 甄小九的个人空间
+site_url: https://yzz2525.github.io/
 theme:
   name: material
+  logo: assets/apachemaven.svg
+  language: zh
+  feature:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - navigation.path
+    - navigation.instant
+    - navigation.instant.progress
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Noto Serif Simplified Chinese
+
+copyright: "copyright 2025 © 甄小九 All rights reserved."
