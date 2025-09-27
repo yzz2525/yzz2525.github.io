@@ -6,6 +6,7 @@ theme:
   language: zh
   feature:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
     - navigation.sections
     - navigation.path
