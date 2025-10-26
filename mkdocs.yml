@@ -27,4 +27,25 @@ theme:
   font:
     text: Noto Serif Simplified Chinese
 
+  plugins:
+    - search
+    - roamlinks
+  markdown_extensions:
+    - admonition
+    - attr_list
+    - def_list
+    - footnotes
+    - md_in_html
+    - toc:
+        permalink: true
+    - pymdownx.details
+    - pymdownx.superfences
+    - pymdownx.highlight
+    - pymdownx.inlinehilite
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.emoji
+    - pymdownx.arithmatex:
+        generic: true
+
 copyright: "copyright 2025 © 甄小九 All rights reserved."
